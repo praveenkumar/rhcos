@@ -81,11 +81,11 @@ postprocess:
      . /etc/os-release
      cat > /usr/lib/os-release <<EOF
      NAME="${NAME} CoreOS"
-     ID="rhcos"
-     ID_LIKE="rhel fedora"
+     ID="rhel"
+     ID_LIKE="fedora"
      VERSION="${OSTREE_VERSION}"
      PLATFORM_ID="${PLATFORM_ID}"
-     PRETTY_NAME="${NAME} CoreOS ${OSTREE_VERSION} (Ootpa)"
+     PRETTY_NAME="${NAME} CoreOS ${OSTREE_VERSION} (Plow)"
      ANSI_COLOR="${ANSI_COLOR}"
      CPE_NAME="cpe:/o:redhat:enterprise_linux:9::coreos"
      HOME_URL="${HOME_URL}"
